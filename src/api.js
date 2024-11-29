@@ -1,4 +1,4 @@
-const API_URL = "http://rauwback.zapto.org:4000"; // Cambia esto a la URL de tu back-end si está desplegado
+const API_URL = "https://rauwback.zapto.org:4000"; // Cambia esto a la URL de tu back-end si está desplegado
 
 // Función para registrar un usuario
 export const register = async (email, password) => {
