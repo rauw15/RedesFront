@@ -1,0 +1,19 @@
+/* Asegura que el body y html ocupen toda la pantalla */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Centrando el contenedor */
+  .container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh;           /* Asegura que ocupe toda la pantalla */
+  }
+  
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
