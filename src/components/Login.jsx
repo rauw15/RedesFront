@@ -37,7 +37,6 @@ const Login = () => {
               className="form-control"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              required
             />
           </div>
           <div className="mb-3">
@@ -47,7 +46,6 @@ const Login = () => {
               className="form-control"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              required
             />
           </div>
           {error && <div className="alert alert-danger">{error}</div>}
